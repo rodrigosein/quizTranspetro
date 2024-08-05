@@ -74,7 +74,7 @@ function showNextInfoScreen(screenNumber) {
             } else {
                 showQuestionScreen();
             }
-        }, 10000); // 10 segundos
+        }, 15000); // 15 segundos
     }
 }
 
@@ -99,7 +99,7 @@ function displayQuestion() {
             optionsDiv.appendChild(button);
         });
 
-        timer = setTimeout(nextQuestion, 10000); // 10 segundos
+        timer = setTimeout(nextQuestion, 15000); // 15 segundos
     } else {
         showResultScreen();
     }
