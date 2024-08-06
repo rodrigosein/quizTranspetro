@@ -36,7 +36,6 @@ body, html {
 
 .start-btn, .back-btn {
     position: absolute;
-    bottom: 250px;
     padding: 15px 30px;
     font-size: 24px;
     cursor: pointer;
@@ -47,6 +46,17 @@ body, html {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: background-color 0.3s;
 }
+.start-btn {
+    bottom: 250px;
+
+}
+
+.back-btn {
+    bottom: 50px;
+
+}
+
+
 
 .start-btn:hover, .back-btn:hover {
     background-color: #0056b3;
