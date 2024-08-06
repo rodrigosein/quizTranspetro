@@ -58,38 +58,21 @@ body, html {
     font-size: 18px;
 }
 
-#question-content {
-    margin: 20px;
-    font-size: 28px;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.8); /* Background branco semitransparente */
-    padding: 15px;
-    border-radius: 10px;
-}
-
 #options {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    align-items: center;
+    margin-top: 200px;
 }
 
-#options button {
-    padding: 15px 20px;
-    font-size: 24px;
+#options img {
+    width: 250px; /* Definir a largura */
+    height: auto; /* Manter altura proporcional */
     cursor: pointer;
-    background-color: #28a745;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    transition: background-color 0.3s;
+    transition: transform 0.3s;
 }
 
-#options button:hover {
-    background-color: #218838;
-}
-
-#result-message {
-    font-size: 32px;
-    text-align: center;
+#options img:hover {
+    transform: scale(1.05);
 }
